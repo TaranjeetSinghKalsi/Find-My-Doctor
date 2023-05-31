@@ -101,11 +101,27 @@
         margin-left: 0;
         padding: 10px 0;
     }
+    .hero-text{
+        
+       padding: 1em 0;
+        color: var(--secondary)!important;
+        text-shadow: 0.04em 0.04em var(--primary)!important;
+    }
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background-color: rgba(19, 197, 221, 0.2); /*primary color */
+    background-image: url(../img/hero.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-blend-mode: multiply;
+    height: 80vh;
+}
+.hero-text{
+    border-color: #fff ; 
+    color: var(--secondary);
+    text-shadow:  0.04em 0.04em var(--primary);
 }
 
 .service-item {
@@ -189,6 +205,7 @@
     .team-item .row {
         height: 350px;
     }
+    
 }
 
 .team-carousel .owl-nav {
